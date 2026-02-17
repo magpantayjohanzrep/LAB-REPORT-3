@@ -1,4 +1,4 @@
-# EXPERIMENT 13 - PCM DECODING 
+# EXPERIMENT 13 - PCM DECODING 💻
 
 # OVERVIEW 🔍
 - Pulse Code Modulation (PCM) is a fundamental system used to convert message signals into a continuous serial stream of binary numbers, a process known as encoding. The recovery of the original message from this digital stream is referred to as decoding. At its most basic level, the decoding process requires identifying new frames within the data stream, extracting the binary numbers, and generating a proportional voltage for each value. This voltage is held until the next frame is decoded, creating a Pulse Amplitude Modulation (PAM) version of the original signal, which is then passed through a low-pass filter for final reconstruction. Successful decoding relies heavily on maintaining a clock frequency identical to the encoder's and correctly detecting the beginning of each frame to avoid data misinterpretation.
